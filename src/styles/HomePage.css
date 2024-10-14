@@ -1,0 +1,46 @@
+.home-page .hero-section {
+  background-image: url("../assets/Leaf-Village_04.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.home-page .hero-section h1,
+h2 {
+  padding: 0 1rem;
+}
+
+.home-page .info-section  {
+  background-color: rgb(226, 226, 226);
+  padding: 2rem;
+  width: 100%;
+}
+
+.home-page .info-section .image {
+  width: 12rem;
+  height: 18rem;
+  background-color: pink;
+}
+
+.home-page .infocard  {
+  padding: 2rem;
+}
+
+.home-page .home-footer {
+  background-color: bisque;
+  padding: 10rem 20%;
+}
+
+.home-page .home-footer .header-text{
+  color: rgb(163, 0, 0);
+  font-size: 3rem;
+  font-weight: bold;
+}

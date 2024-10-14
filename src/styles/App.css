@@ -1,0 +1,24 @@
+:root {
+  --main-bg-peach: #f1b9b1;
+  --main-bg-light-grey: #f4f6f9;
+  --main-light-grey: #aaaaaa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tenor Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-size: 5rem;
+}
