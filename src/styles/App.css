@@ -1,7 +1,17 @@
 :root {
-  --main-bg-peach: #f1b9b1;
-  --main-bg-light-grey: #f4f6f9;
-  --main-light-grey: #aaaaaa;
+   /* Primary Colors */
+   --soft-earthy-brown: #A67B5B;
+   --forest-green: #6B8E23;
+   --sky-blue: #87CEEB;
+ 
+   /* Secondary Colors */
+   --sunset-orange: #FFA07A;
+   --cherry-blossom-pink: #FFB7C5;
+ 
+   /* Neutral Colors */
+   --off-white: #F4F1DE;
+   --charcoal-gray: #4E4E4E;
+   --light-gray: #D3D3D3;
 }
 
 * {
@@ -11,6 +21,7 @@
 }
 
 body {
+  min-height: 100vh;
   font-family: "Tenor Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -21,4 +32,12 @@ h1 {
   font-family: "Anton", sans-serif;
   font-weight: 100;
   font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
 }

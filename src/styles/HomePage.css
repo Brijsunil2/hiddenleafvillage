@@ -11,67 +11,82 @@
   text-align: center;
 }
 
-p {
-  margin: 0;
-}
-
 .home-page .hero-content {
   backdrop-filter: blur(3px);
 }
 
 .home-page .hero-section h1,
 h2 {
-  background: linear-gradient(to right, rgb(85, 182, 76), rgb(249, 255, 195));
+  background: linear-gradient(to right, var(--forest-green), var(--sunset-orange));
   background-clip: text;
   color: transparent;
   padding: 0 1rem;
-  text-shadow: 3px 3px #0e742d18;
   font-weight: bold;
   animation: titleFadeIn 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
 }
 
 .home-page .info-section {
-  background-color: rgb(217, 236, 195);
-  padding: 5rem min(20rem, 5%);
+  background-color: var(--light-gray);
+  padding: 10rem min(20rem, 5%);
   width: 100%;
 }
 
 .home-page .info-section .image {
   width: 12rem;
   height: 18rem;
-  background-color: rgb(188, 224, 146);
-  box-shadow: 10px 10px 10px rgba(35, 190, 35, 0.144),
-    -4px -4px 4px rgb(150, 211, 148);
+  box-shadow: 10px 10px 10px var(--charcoal-gray),
+    -4px -4px 4px var(--charcoal-gray);
+  margin-bottom: 1.5rem;
 }
 
 .home-page .infocard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   padding: 2rem;
 }
 
-.home-page .infocard:hover .infocard-img{
+.home-page .infocard:hover .infocard-img {
   opacity: 100%;
   scale: 1.05;
   transition: 1s;
 }
 
-.home-page .infocard .infocard-img{
+.home-page .infocard .infocard-img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   object-position: center;
   opacity: 70%;
 }
 
+.home-page .info-section .infocards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-page .info-section .infocards > .infocard {
+  margin: 1rem;
+  max-width: 340px;
+}
+
+.home-page .info-section .infocards > .infocard > h3 {
+  margin-bottom: 1rem;
+}
 
 .home-page .home-footer {
-  background-color: rgb(236, 229, 220);
-  padding: 5rem min(20rem, 5%);
+  background-color: rgba(var(--cherry-blossom-pink), 0.5);
+  text-align: center;
+  padding: 10rem min(20rem, 20%);
 }
 
 .home-page .home-footer .header-text {
   color: rgb(219, 46, 46);
   font-size: 3em;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .fade-in {
